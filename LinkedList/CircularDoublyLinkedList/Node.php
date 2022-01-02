@@ -10,10 +10,10 @@ class Node
     public $data;
     public $next;
     public $prev;
-    public function __construct($value)
+    function __construct()
     {
-        $this->data = $value;
-        $this->next = NULL;
-        $this->prev = NULL;
+        $this->data = 0;
+        $this->next = null;
+        $this->prev = null;
     }
 }
